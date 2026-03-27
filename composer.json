@@ -1,0 +1,24 @@
+{
+    "name": "dbu/shared-state",
+    "description": "A polyfill for the frankenphp shared state engine to use when the native functionality is not available",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "symfony/filesystem": "^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dbu\\SharedState\\": "src/"
+        },
+        "files": [
+            "src/bootstrap.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "David Buchmann",
+            "email": "mail@davidbu.ch"
+        }
+    ]
+}
